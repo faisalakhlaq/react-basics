@@ -1,7 +1,7 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 import NavBar from './components/NavBar.js'
-import {PortfolioHome, About, Skills, Contact, Projects } from "./components"
+import {PortfolioHome, About, Skills, Contact, Projects, Todo } from "./components"
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
             <Route exact={true} path="/skills"  component={Skills} />
             <Route exact={true} path="/projects"  component={Projects} />
             <Route exact={true} path="/contact"  component={Contact} />
+            <Route exact={true} path="/playground" component={Todo}/>
         </Switch>
     </BrowserRouter>
   );

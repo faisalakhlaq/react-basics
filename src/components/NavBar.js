@@ -1,32 +1,17 @@
 import { Route, Link } from "react-router-dom";
-import Todo from "./Todo.js"
-
-const navBarStyle = {
-    background: 'steelblue',
-    height: '2rem',
-    width: '100%',
-  };
+import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <div style={navBarStyle}>
+        <div className="navContainer">
             <nav>
-                <Link to="/">Home</Link>
-                |
-                <Link to="/about">About</Link>
-                |
-                <Link to="/projects">Projects</Link>
-                |
-                <Link to="/skills">Skills</Link>
-                |
-                <Link to="/contact">Contact</Link>
-                |
-                <Link to="/playground">Playground</Link>
+                <Link className="navLink" to="/">Home</Link>
+                <Link className="navLink" to="/about">About</Link>
+                <Link className="navLink" to="/projects">Projects</Link>
+                <Link className="navLink" to="/skills">Skills</Link>
+                <Link className="navLink" to="/contact">Contact</Link>
+                <Link className="navLink" to="/playground">Playground</Link>
             </nav>
-            <Route
-                path="/playground"
-                component={Todo}
-            />
         </div>      
     )
 }

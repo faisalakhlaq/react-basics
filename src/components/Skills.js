@@ -4,7 +4,7 @@ const listStyle = {
 const Skills = () => {
     return (
         <div className="container">
-            <h1>Skills</h1>
+            <h1 style={{textAlign:"center"}}>Skills</h1>
             <p>“Mastery lies on an infinite continuum, 
                 and as a result we will never reach the end. 
                 We can, however, see to it that we are as 
@@ -56,7 +56,7 @@ const Skills = () => {
                 </ul>
             </div>
         </div>
-    )
+    );
 }
 
 export default Skills

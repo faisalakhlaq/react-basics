@@ -87,7 +87,6 @@ const About = () => {
                 <pre class="tab"></pre>
             </p>
         </div>
-
     );
 }
 

@@ -12,7 +12,7 @@ body {
 
 .container {
   max-width: 500px;
-  margin: 30px auto;
+  margin: 5rem auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
@@ -113,7 +113,7 @@ footer {
 
 .about-page-container {
   padding: 2rem;
-  margin: 1rem auto;
+  margin: 5rem auto;
   width: 80%;
   height: 100%;
   overflow: hidden;
