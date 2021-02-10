@@ -1,12 +1,9 @@
 import { Route, Link } from "react-router-dom";
-import About from "./About.js"
 import Todo from "./Todo.js"
-import PortfolioHome from "./PortfolioHome"
-import Projects from "./Projects.js"
 
 const navBarStyle = {
     background: 'steelblue',
-    height: '50px',
+    height: '2rem',
     width: '100%',
   };
 
