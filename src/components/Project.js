@@ -3,7 +3,8 @@ const imgStyle = {
 }
 const projectCardStyle = {
     textAlign: 'center',
-    margin: '2rem'
+    margin: '2rem',
+    cursor: 'pointer'
 }
 const Project = ({project, onClick}) => {
     return (
@@ -13,11 +14,6 @@ const Project = ({project, onClick}) => {
             <img src={project.image} style={imgStyle}></img>
         </div>
     )
-}
-
-Project.defaultProps = {
-    textAlign: 'right',
-    backgroundColor: 'steelblue'
 }
 
 export default Project 

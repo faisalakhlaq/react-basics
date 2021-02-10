@@ -13,7 +13,7 @@ const About = () => {
                 best practices. Currently I am focused on learning and enhancing skills in Python (Flask and Django).
             </p>
             <br />
-            <p>
+            <div>
                 Recently I developed some web projects using Django:
                 <ul style={bulletMarginStyle}>
                     <li>MobileTilbud website for sale offers on mobiles from different companies</li>
@@ -40,10 +40,10 @@ const About = () => {
                     <li>Desktop application using tkinter</li>
                     <li>Deployment on Heroku</li>
                 </ul>
-            </p>
+            </div>
             <br />
             <h3>Education</h3>
-            <p id="education">
+            <div id="education">
                 <ul style={bulletMarginStyle}>
                 <li>MSc Software Engineering and Management from <i>Linköpings University, Sweden</i>.</li>
                 <h4>Recent Educational Activities</h4>
@@ -51,10 +51,10 @@ const About = () => {
                 <li>Python Mega Course: Build 10 Real World Application (www.udemy.com)</li>
                 <li>E-commerce web development with Django (www.udemy.com)</li>
                 </ul>
-            </p>
+            </div>
             <br />
             <h3>Publications</h3>
-            <p>
+            <div>
                 <ul style={bulletMarginStyle}>
                     <li>
                         Automatic Assembler Generator for NoGAP - IEEE <br />
@@ -65,27 +65,27 @@ const About = () => {
                         Ist author: Per Karlström,
                     </li>
                 </ul>
-            </p>
+            </div>
             <br />
             <h3>Experience</h3>
-            <p>
+            <div>
                 <ol style={bulletMarginStyle}>
                     <li> Django-Python Developer Intern at "Ticketbutler Copenhagen" - 2018 </li>
                     <li> Java Software Developer at "Korgix" - 2014 </li>
                     <li> Java Developer Intern at "Simus-Systems GmbH" - 2012 </li>
                 </ol>
-            </p>
+            </div>
             <br />
             <h3>Languages</h3>
-            <p>
+            <div>
                 <ol style={bulletMarginStyle}>
                     <li> Urdu - Native </li>
                     <li> English - Professional Proficiency </li>
                     <li> Danish - Fluent in spoken </li>
                     <li> Punjabi - Fluent </li>
                 </ol>
-                <pre class="tab"></pre>
-            </p>
+                <pre className="tab"></pre>
+            </div>
         </div>
     );
 }

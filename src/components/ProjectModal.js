@@ -16,10 +16,10 @@ const ProjectModal = ({ handleClose, show, project }) => {
             <p>
               {project.description}
             </p>
-            <p style={centeredStyle}>  
+            <div style={centeredStyle}>  
               <h5>Tools Used</h5>        
               {project.tools}
-            </p>
+            </div>
             <p style={centeredStyle}>
               <Button 
               color={'red'} 

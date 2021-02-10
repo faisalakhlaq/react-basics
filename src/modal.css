@@ -6,8 +6,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
   }
-  
-  .modal-main {
+
+.modal-main {
     position:fixed;
     background: white;
     width: 80%;
@@ -17,21 +17,21 @@
     transform: translate(-50%,-50%);
     display: flex;
     flex-direction: row;
-  }
-  
-  .display-block {
-    display: block;
-  }
-  
-  .display-none {
-    display: none;
-  }
+}
 
-  .p-description{
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.p-description{
     width: 50%;
     text-align: justify;
-  }
+}
 
-  .p-image{
+.p-image{
     width: 50%;
-  }
+}
