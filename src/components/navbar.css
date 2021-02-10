@@ -7,9 +7,9 @@
     overflow: hidden;
     width: 100%;
     background-color: steelblue;
-  }
+}
 
-  .navLink {
+.navLink {
     float: left;
     border-right:1px solid #bbb;
     display: block;
@@ -17,9 +17,17 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  .navLink:hover:not(.active) {
+}
+
+.navLink:hover:not(.active) {
     background-color: #111;
+}
+
+.right {
+    float: right;
+}
+
+@media screen and (max-width: 750px) {
+    navLink, 
+    right {float: none;}
   }
-  
