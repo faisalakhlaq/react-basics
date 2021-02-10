@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "MobileTilbud website",
+        "description": "MobileTilbud website provides information about mobiles and  offers from all telecom companies in Denmark. Data is scraped from different website on periodic basis using web-scraping. Partners can signup and post their offers on the website and perform CRUD operations.Website supports Danish and English language.",
+        "link": "https://www.mobiletilbud.dk",
+        "tools": ["Django (CRUD)", "Database-MySQL", "Web-Scraping", "Celery", "MySQL", "User AUTH"],
+        "image": "mobiletilbud.png"
+    },
+    {
+        "id": 2,
+        "title": "Stcok Data Fetcher",
+        "description": "A simple hobby project which fetches and display any given stock's data in a candlestick chart. The website also has a blog and user module for creating and managing users. The user can write about stock terms and guidelines on the blog.",
+        "link": "https://stockgraphicaldata.herokuapp.com",
+        "tools": ["Python", "Bokeh", "Flask (flask_login, forms, SQLAlchemy, Blueprint)", "PostgreSQL"],
+        "image": "stock.png"
+    },
+    {
+        "id": 3,
+        "title": "Basic Ecommerce Web Application",
+        "description": "A basic ecommerce web application hobby project. Users can signup, login and add items to cart and make payments using card. Application has a section for partners who can perform CRUD operations and APIs are developed using rest-framework.",
+        "link": "https://github.com/faisalakhlaq/ecommerce.git",
+        "tools": ["Django", "REST APIs", "dj-rest-auth", "Stripe", "Bootstrap"],
+        "image": "ecomm.png"
+    },
+    {
+        "id": 4,
+        "title": "Restaurant-Menu Follower",
+        "description": "A social web application based on a tutorial from codingforentrepreneurs. Users can register and follow other users. A user can add his favourite restaurant and menu. Others following this user will see the updates in their home page.",
+        "link": "",
+        "tools": ["Django", "Generic Views", "Models","SQLite DB", "Django AUTH"],
+        "image": "social.png"
+    },
+    {
+        "id": 5,
+        "title": "Crypto Currency Portfolio",
+        "description": "The Crypto Currency Portfolio web app lets the user to enter their currencies and amount of each currency and fetches respective currency data from www.coinmarketcap.com website. The data is fetched by making API calls to coinmarketcap. Users portfolio is displayed in a tabular form afterwards. Python Flask is used to develop the web-app",
+        "link": "https://stockgraphicaldata.herokuapp.com/crypto_currency_data",
+        "tools": ["Python", "Flask", "SQLAlchemy", "JavaScript", "Bootstrap", "HTML-CSS"],
+        "image": "crypto.png"
+    },
+    {
+        "id": 6,
+        "title": "Book Store",
+        "description": "Book store is a small app which enable us to perform CRUD operation. Restriction are employed to certain operation based on user role. e.g. A user with admin role can add, update, edit and delete a book.",
+        "link": "https://basicbookstore.herokuapp.com",
+        "tools": ["PostgreSQL Database", "SQLAlchemy", "Flask"],
+        "image": "bookstore.png"
+    },
+    {
+        "id": 7,
+        "title": "Proj-API Scraper",
+        "description": "Proj-API Scraper scrapes www.programmableweb.com web page and finds all the APIs under the category tools in the website. It is simple and goes through multiple pages to fetch all APIs.",
+        "link": "https://dk-properties.herokuapp.com/api_spider",
+        "tools": ["Python","requests", "BeautifulSoup","Pandas"],
+        "image": "p-api.png"
+    },
+    {
+        "id": 8,
+        "title": "Rock Spring-Properties",
+        "description": "Rock Spring-Properties is based on a tutorial from Udemy 'The Python Mega Course by Ardit Sulce' It scrapes the properties from a real estate website for Rock Spring.",
+        "link": "https://dk-properties.herokuapp.com/rockspring_properties",
+        "tools": ["Python","requests", "BeautifulSoup","Pandas"],
+        "image": "rock-spring.png"
+    },
+    {
+        "id": 9,
+        "title": "DK-Properties",
+        "description": "DK-Properties scrpaes properties from the boligside.dk. Data is displayed in a table.",
+        "link": "https://dk-properties.herokuapp.com/dk_properties",
+        "tools": ["Python", "Selenium", "BeautifulSoup","Pandas"],
+        "image": "dk-properties.png"
+    },
+    {
+        "id": 10,
+        "title": "Interactive Dictionary and Height data Collector",
+        "description": "Its a simple hobby project which is based on a tutorial from Udemy 'The Python Mega Course by Ardit Sulce' The interactive dictionary return the definition of the given word. The definitions are fetched from a MySQL database. The height data collector invites the user to enter their email and height information and in response sends an email to the address with their height information. One email address can only be utilized once. The data is stored in a PostgreSQL database.",
+        "link": "https://interactive-dict.herokuapp.com",
+        "tools": ["Python", "Flask", "SQLAlchemy"],
+        "image": "dict.png"
+    },
+    {
+        "id": 11,
+        "title": "Android App: Prayer Diary",
+        "description": "A small android app created as a hobby project. There are currently 5000+ downloads of the app.",
+        "link": "https://play.google.com/store/apps/details?id=com.prayerdiary.app",
+        "tools": ["Android", "Eclipse IDE"],
+        "image": ""
+    }
+]

@@ -20,7 +20,7 @@ const Tasks = ({ tasks, onDelete, onToggle, onClick }) => {
                 task={task}
                 onClick={onClick}
                 />
-            ))}            
+            ))}
         </>
     )
 }
