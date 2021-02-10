@@ -47,6 +47,7 @@ const Skills = () => {
             <div>
                 <ul style={listStyle}>    
                     <h3>Non Technical Skills</h3>
+                    <li>Project Management</li>
                     <li>Time Management</li>
                     <li>Writing</li>
                     <li>Teaching</li>
