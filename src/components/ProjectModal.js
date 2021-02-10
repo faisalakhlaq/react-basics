@@ -25,7 +25,8 @@ const ProjectModal = ({ handleClose, show, project }) => {
               color={'red'} 
               text={'Close'}
               onClick={handleClose} />
-             <a href={project.link} target='blank'>Link to project</a> 
+              <br />
+              <a href={project.link} target='blank'>Link to project</a> 
             </p>
           </div>
           <img className="p-image" src={project.image}></img>

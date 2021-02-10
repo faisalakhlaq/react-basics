@@ -14,26 +14,16 @@ const NavBar = () => {
     return (
         <div style={navBarStyle}>
             <nav>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
                 |
                 <Link to="/about">About</Link>
                 |
                 <Link to="/projects">Projects</Link>
                 |
+                <Link to="/contact">Contact</Link>
+                |
                 <Link to="/playground">Playground</Link>
             </nav>
-            <Route
-                path="/home"
-                component={PortfolioHome}
-            />
-            <Route
-                path="/about"
-                component={About}
-            />
-            <Route
-                path="/projects"
-                component={Projects}
-            />
             <Route
                 path="/playground"
                 component={Todo}
