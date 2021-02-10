@@ -36,7 +36,7 @@ const PortfolioHome = () => {
                         Back-end developer working with Python and Django.
                         Have worked with established as well as startup companies
                         and helped them to achieve high quality applications.
-                        Can also work as a freelancer.
+                        Available for freelance work.
                     </p>
                 </div>
         </div>
