@@ -4,15 +4,15 @@ import { useState } from 'react'
 
 import data from '../../src/data_files/projects.json'
 import Project from './Project.js'
-import Modal from './TaskModal.js'
+import ProjectModal from './ProjectModal.js'
 
 const Projects = () => {
 
-    const [showTaskInModal, setShowModal] = useState(false)
-    const [modalTask, setModalTask] = useState('')
+    const [showProjectInModal, setShowModal] = useState(false)
+    const [modalProject, setModalProject] = useState('')
   
     const showModal = (task) => {
-      setModalTask(task);
+      setModalProject(task);
       setShowModal(true);
     };
   
@@ -31,14 +31,11 @@ const Projects = () => {
                         />
                 ))
             }
-            {showTaskInModal && <Modal 
-            show={showTaskInModal} 
+            {showProjectInModal && <ProjectModal 
+            show={showProjectInModal} 
             handleClose={hideModal}
-            task={modalTask}> 
-            <p>Task: {modalTask.text}</p>
-            <p>Date: {modalTask.day}</p>
-            <p>Remind: {modalTask.reminder}</p>
-          </Modal>}
+            project={modalProject}> 
+          </ProjectModal>}
         </div>
     );
 }

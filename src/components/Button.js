@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
-
-const Button = ({ color, text, onClick}) => {
+// if a link is provided then the button 
+// will redirect to link otherwise onClick will be called 
+const Button = ({ color, text, onClick, link}) => {
     return (
         <button 
         onClick={onClick}

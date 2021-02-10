@@ -1,4 +1,4 @@
-const Task = ({ task, onDelete, onToggle }) => {
+const TodoTask = ({ task, onDelete, onToggle }) => {
     return (
         <div className={`task ${task.reminder ? 'reminder' : ''}`}
             onDoubleClick={() => onToggle(task.id)}>
@@ -11,4 +11,4 @@ const Task = ({ task, onDelete, onToggle }) => {
     )
 }
 
-export default Task
+export default TodoTask

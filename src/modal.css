@@ -15,6 +15,8 @@
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
   }
   
   .display-block {
@@ -23,4 +25,13 @@
   
   .display-none {
     display: none;
+  }
+
+  .p-description{
+    width: 50%;
+    text-align: justify;
+  }
+
+  .p-image{
+    width: 50%;
   }
