@@ -1,9 +1,9 @@
 const imgStyle = {
-    width: '20rem',
+    maxWidth: '17rem',
 }
 const projectCardStyle = {
     textAlign: 'center',
-    margin: '2rem',
+    alignItems: 'center',
     cursor: 'pointer'
 }
 const Project = ({project, onClick}) => {

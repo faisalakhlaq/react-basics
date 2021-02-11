@@ -20,8 +20,12 @@ const Projects = () => {
       setShowModal(false);
     };
 
+    const centeredStyle = {
+      textAlign: 'center'
+    }
     return (
         <div className='container'>
+            <h1 style={centeredStyle}>Projects</h1>
             {
                 data.map((project) => (
                     <Project 

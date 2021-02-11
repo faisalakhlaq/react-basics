@@ -119,3 +119,26 @@ footer {
   overflow: hidden;
   border: 1px solid;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .container {
+    max-width: 500px;
+    margin: 10rem auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .about-page-container {
+    padding: 1rem;
+    margin: 10rem auto;
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+  }
+}
