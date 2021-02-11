@@ -1,7 +1,12 @@
+const nonSelectableStyle = {
+    userSelect: "none"
+}
+
 const TodoTask = ({ task, onDelete, onToggle }) => {
     return (
         <div className={`task ${task.reminder ? 'reminder' : ''}`}
-            onDoubleClick={() => onToggle(task.id)}>
+            onDoubleClick={() => onToggle(task.id)}
+            style={nonSelectableStyle}>
             <h3>{ task.text } 
             <button style={{color: 'red', cursor:'pointer'}}
             onClick={() => onDelete(task.id)}>Delete</button>

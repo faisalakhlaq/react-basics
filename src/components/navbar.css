@@ -27,7 +27,7 @@
     float: right;
 }
 
-@media screen and (max-width: 750px) {
-    navLink, 
-    right {float: none;}
+@media only screen and (max-width: 768px) {
+    navContainer.navLink, 
+    navContainer.right {float: none;}
   }

@@ -18,7 +18,7 @@ const ProjectModal = ({ handleClose, show, project }) => {
             </p>
             <div style={centeredStyle}>  
               <h5>Tools Used</h5>        
-              {project.tools}
+              {project.tools.join(', ')}
             </div>
             <p style={centeredStyle}>
               <Button 
