@@ -1,17 +1,25 @@
 const listStyle = {
     padding: '1rem'
 }
+const skillsListStyle = {
+    display:"flex", 
+    flexWrap: 'wrap', 
+    justifyContent: 'center'
+}
+const centerAlignText = {
+    textAlign:"center"
+}
 const Skills = () => {
     return (
-        <div className="container">
-            <h1 style={{textAlign:"center"}}>Skills</h1>
-            <p>“Mastery lies on an infinite continuum, 
+        <div className="base-container">
+            <h1 style={centerAlignText}>Skills</h1>
+            <p style={centerAlignText}>“Mastery lies on an infinite continuum, 
                 and as a result we will never reach the end. 
                 We can, however, see to it that we are as 
                 far along that continuum as our circumstance allows.”
                 ― Chris Matakas
             </p>
-            <div style={{display:"flex" }}>
+            <div style={skillsListStyle}>
                 <ul style={listStyle}>
                     <h3>Python</h3>
                     <li>Flask</li>
@@ -30,8 +38,6 @@ const Skills = () => {
                     <li>API - REST Framework</li>
                     <li>Celery</li>
                 </ul>
-            </div>
-            <div>
                 <ul style={listStyle}>    
                     <h3>Basic to intermediate skills</h3>
                     <li>GIT</li>
@@ -43,8 +49,6 @@ const Skills = () => {
                     <li>Databases (PostgreSQL, MySQL)</li>
                     <li>Ubuntu</li>
                 </ul>
-            </div>
-            <div>
                 <ul style={listStyle}>    
                     <h3>Non Technical Skills</h3>
                     <li>Project Management</li>

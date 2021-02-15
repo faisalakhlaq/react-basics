@@ -1,3 +1,6 @@
+
+import {About, Skills, Contact, Projects } from "./index"
+
 const socialIconStyle = {
     width: '25px',
     padding: '.3rem',
@@ -11,6 +14,7 @@ const justifiedStyle = {
 }
 const PortfolioHome = () => {
     return (
+        <>
         <div className='container'>
             <p style={centeredStyle}>
                 "Tell me and I forget. Teach me and I remember. Involve me and I learn."
@@ -39,8 +43,13 @@ const PortfolioHome = () => {
                         Available for freelance work.
                     </p>
                 </div>
+            </div>
         </div>
-    </div>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+        </>
     );
 }
 

@@ -23,9 +23,16 @@ const Projects = () => {
     const centeredStyle = {
       textAlign: 'center'
     }
+    
+    const projectContainer = {
+        display:"flex", 
+        flexWrap: 'wrap', 
+        justifyContent: 'center'
+    }
     return (
-        <div className='container'>
+        <div className='base-container'>
             <h1 style={centeredStyle}>Projects</h1>
+            <div  style={projectContainer}>
             {
                 data.map((project) => (
                     <Project 
@@ -35,6 +42,7 @@ const Projects = () => {
                         />
                 ))
             }
+            </div>
             {showProjectInModal && <ProjectModal 
             show={showProjectInModal} 
             handleClose={hideModal}

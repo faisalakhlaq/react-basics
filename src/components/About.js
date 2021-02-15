@@ -3,7 +3,7 @@ const bulletMarginStyle = {
 }
 const About = () => {
     return (
-        <div className='about-page-container'>
+        <div className='base-container'>
             <h1 style={{ textAlign: "center" }}>About me</h1>
             <p>Hej!</p> <br />
             <p style={{ textAlign: "justify" }}>

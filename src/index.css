@@ -20,6 +20,16 @@ body {
   border-radius: 5px;
 }
 
+.base-container{
+  max-width: 100%;
+  margin: 5rem auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -117,10 +127,19 @@ footer {
   width: 80%;
   height: 100%;
   overflow: hidden;
-  border: 1px solid;
+  border: 1px solid steelblue;
 }
 
 @media only screen and (max-width: 768px) {
+  .base-container{
+    max-width: 100%;
+    margin: 10rem auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 20px;
+    border-radius: 5px;
+  }
 
   .container {
     max-width: 500px;

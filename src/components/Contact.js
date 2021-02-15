@@ -11,13 +11,13 @@ const justifiedStyle = {
 }
 const Contact = () => {
     return (
-        <div className="container" style={{textAlign:"center"}}>
+        <div className="base-container" style={{textAlign:"center"}}>
             <h1>Contact Me</h1>
             <p className="contact-me-text" style={justifiedStyle}>
                 If you are interested in working with me or just want to say hi.
-                Do you have an idea that needs a web / software for its completion?
-                Do not think, just send me a message / question / suggestion. <br />
-                You can directly send me an email at Faisal.Akhlaq@aol.com <br />
+                Do you have an idea that needs a web, software for its completion?
+                Send me a message, question, suggestion. 
+                You can directly send me an email at Faisal.Akhlaq@aol.com.
             </p>
             <p>
                 <img  className="mail-image" style={mailIconStyle} src="mail.png" />

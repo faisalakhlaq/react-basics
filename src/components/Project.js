@@ -4,7 +4,8 @@ const imgStyle = {
 const projectCardStyle = {
     textAlign: 'center',
     alignItems: 'center',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    margin: '2rem'
 }
 const Project = ({project, onClick}) => {
     return (

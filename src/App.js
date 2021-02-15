@@ -1,7 +1,6 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import NavBar from './components/NavBar.js'
-import {PortfolioHome, About, Skills, Contact, Projects, Footer, Todo } from "./components"
+import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo } from "./components"
 
 const App = () => {
   return (
