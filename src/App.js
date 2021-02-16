@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo } from "./components"
+import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo, Playground } from "./components"
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
             <Route exact={true} path="/skills"  component={Skills} />
             <Route exact={true} path="/projects"  component={Projects} />
             <Route exact={true} path="/contact"  component={Contact} />
-            <Route exact={true} path="/playground" component={Todo}/>
+            <Route exact={true} path="/playground" component={Playground}/>
         </Switch>
         <Footer />
     </BrowserRouter>
