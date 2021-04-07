@@ -1,11 +1,11 @@
 import { Link, BrowserRouter, Route, Switch } from "react-router-dom";
-import Todo from "./Todo";
-import CodilityLessons from "./CodilityLessons"
-import Weather from './Weather'
+// import Todo from "./Todo";
+// import CodilityLessons from "./CodilityLessons"
+// import Weather from './Weather'
 
 const Playground = () => {
     return (
-        <BrowserRouter>
+        // <BrowserRouter>
         <div className='base-container'>
             <h1>Small Apps</h1>
             <li><Link className="" to="/todo">Todo App</Link></li>
@@ -13,13 +13,13 @@ const Playground = () => {
             <li><Link className='' to="/codilitylessons">Codility Lessons</Link></li>
             <hr />
 
-            <Switch>
+            {/* <Switch>
                 <Route path="/weather" component={Weather}/>
                 <Route path="/todo" component={Todo}/>
                 <Route path="/codilitylessons" component={CodilityLessons}/>
-            </Switch>
+            </Switch> */}
         </div>
-        </BrowserRouter>
+        // </BrowserRouter>
     );
 }
 
