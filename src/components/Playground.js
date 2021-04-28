@@ -11,6 +11,7 @@ const Playground = () => {
             <li><Link className="" to="/todo">Todo App</Link></li>
             <li><Link className='' to="/weather">Weather</Link></li>
             <li><Link className='' to="/codilitylessons">Codility Lessons</Link></li>
+            <li><Link className='' to="/tic-tac-toe">TicTacToe Game</Link></li>
             <hr />
 
             {/* <Switch>

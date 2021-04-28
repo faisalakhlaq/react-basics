@@ -1,4 +1,3 @@
-
 import {About, Skills, Contact, Projects } from "./index"
 
 const socialIconStyle = {

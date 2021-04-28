@@ -9,7 +9,8 @@ import Todo from "./Todo";
 import Playground from "./Playground";
 import Weather from "./Weather";
 import CodilityLessons from "./CodilityLessons";
+import TicTacToe from "./tic-tac-toe/TicTacToe";
 
 export {PortfolioHome, About, Contact, Projects, 
     Skills, NavBar, Footer, Playground, Todo, 
-    Weather, CodilityLessons };
+    Weather, CodilityLessons, TicTacToe };

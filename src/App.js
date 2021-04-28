@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo, Playground, CodilityLessons, Weather } from "./components"
+import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo, Playground, CodilityLessons, Weather, TicTacToe } from "./components"
 
 const App = () => {
   return (
@@ -17,6 +17,8 @@ const App = () => {
             <Route exact={true} path="/weather" component={Weather}/>
             <Route exact={true} path="/todo" component={Todo}/>
             <Route exact={true} path="/codilitylessons" component={CodilityLessons}/>
+            <Route exact={true} path="/tic-tac-toe" component={TicTacToe} />
+            
         </Switch>
         <Footer />
     </BrowserRouter>
