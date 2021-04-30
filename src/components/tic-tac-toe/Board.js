@@ -36,6 +36,10 @@ const Board = () => {
         onClick={() => writePlayerInput(i)}
         />;
     }
+    const restartGame = () => {
+        let sq = [9].fill(null)
+        setSquares(sq)
+    }
     const winner = calculateWinner()
     let status;
     if (winner) {
@@ -61,6 +65,7 @@ const Board = () => {
                 {renderSquare(7)}
                 {renderSquare(8)}
             </div>
+            <button onClick={() => restartGame()}>Play Again</button>
         </div>
     );
 }
