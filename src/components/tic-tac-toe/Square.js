@@ -1,7 +1,10 @@
-const Square = () => {
+import { useState } from 'react'
+
+const Square = ({value, onClick}) => {
+    // const [squareNumber, setSquareNumber] = useState(null)
     return (
-        <button className="square">
-            {/* TODO */}
+        <button className="square" onClick={() => onClick()}>
+            {value}
         </button>
     );
 }

@@ -43,7 +43,7 @@
   .game {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 5em auto;
     max-width: 500px;
     justify-content: center;

@@ -1,6 +1,8 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
-import {PortfolioHome, About, Skills, Contact, Projects, NavBar, Footer, Todo, Playground, CodilityLessons, Weather, TicTacToe } from "./components"
+import {PortfolioHome, About, Skills, Contact, Projects, NavBar, 
+  Footer, Todo, Playground, CodilityLessons, Weather, TicTacToe } 
+  from "./components"
 
 const App = () => {
   return (
