@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "MobileTilbud website",
+        "description": "MobileTilbud website provides information about mobiles and  offers from all telecom companies in Denmark. Data is scraped from different website on periodic basis using web-scraping. Partners can signup and post their offers on the website and perform CRUD operations.Website supports Danish and English language.",
+        "link": "https://www.mobiletilbud.dk",
+        "tools": ["Django (CRUD)", "Database-MySQL", "Web-Scraping", "Celery", "MySQL", "User AUTH"],
+        "image": "mobiletilbud.png"
+    },
+    {
+        "id": 11,
+        "title": "Android App: Prayer Diary",
+        "description": "A small android app created as a hobby project. There are currently 5000+ downloads of the app.",
+        "link": "https://play.google.com/store/apps/details?id=com.prayerdiary.app",
+        "tools": ["Android", "Eclipse IDE"],
+        "image": "prayer-diary.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Stock Data Fetcher",
+        "description": "A simple hobby project which fetches and display any given stock's data in a candlestick chart. The website also has a blog and user module for creating and managing users. The user can write about stock terms and guidelines on the blog.",
+        "link": "https://stockgraphicaldata.herokuapp.com",
+        "tools": ["Python", "Bokeh", "Flask (flask_login, forms, SQLAlchemy, Blueprint)", "PostgreSQL"],
+        "image": "stock.png"
+    }
+]

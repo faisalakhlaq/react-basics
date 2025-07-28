@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "text": "Doctors Appointment",
+        "day": "Feb 5th at 2:30pm",
+        "reminder": true,
+        "image": "amgsac.png"
+    },
+    {
+        "id": 2,
+        "text": "Food Shoping",
+        "day": "Feb 10th at 1:30pm",
+        "reminder": true,
+        "image": "qabros.png"
+    },
+    {
+        "id": 3,
+        "text": "School Meeting",
+        "day": "Feb 15th at 3:30pm",
+        "reminder": false,
+        "image": "daniazkitchen.png"
+    },
+    {
+        "id": 4,
+        "text": "Outing",
+        "day": "Saturday at 3:30pm",
+        "reminder": false,
+        "image": "mobiletilbud.png"
+    }
+  ]

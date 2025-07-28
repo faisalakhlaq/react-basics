@@ -1,0 +1,33 @@
+.navContainer {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: steelblue;
+}
+
+.navLink {
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLink:hover:not(.active) {
+    background-color: #111;
+}
+
+.right {
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    navContainer.navLink, 
+    navContainer.right {float: none;}
+  }

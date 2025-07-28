@@ -1,0 +1,12 @@
+.socialIconStyle {
+    width: 28px;
+    height: 28px;
+    padding: .3rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.socialIconStyle:hover {
+  color: #3a86ff;
+  transform: scale(1.2);
+}

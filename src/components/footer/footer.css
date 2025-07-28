@@ -1,0 +1,15 @@
+.footerContainer {
+    background-color: steelblue;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+.footerContainer li {
+    list-style-type: none;
+}
+.socialIconStyle {
+    width: 25px;
+    padding: .3rem;
+    border-radius: 50%;
+}
