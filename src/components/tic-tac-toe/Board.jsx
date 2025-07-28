@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Square from "./Square"
 
 const Board = () => {
@@ -29,7 +29,7 @@ const Board = () => {
                 return [a,b,c];
             }
         }
-        return [,,];
+        return [];
     }
     function calculateWinner() {
         const lines = [
@@ -56,7 +56,7 @@ const Board = () => {
         if (calculateWinner() || squares[i]) {
             return;
           }
-        let sq = [...squares]
+        // let sq = [...squares]
         squares[i] = x ? 'X' : 'O'
         setX(!x)
     }
@@ -105,7 +105,7 @@ const Board = () => {
             {/* <div> */}
                 <div className="board-row" >
             {squares.map((_square, index) => {
-                let sq = renderSquare(index)
+                // let sq = renderSquare(index)
                 // if(index == 2 || index == 5)
                 // {
                 //     console.log("index = ", index)

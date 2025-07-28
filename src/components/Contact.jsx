@@ -3,14 +3,6 @@ import { GitHubIcon, LinkedInIcon } from './Icons';
 
 import '../assets/home.css';
 
-const socialIconStyle = {
-    width: '35px',
-    height: '35px',
-    padding: '.4rem',
-    borderRadius: '50%',
-    margin: '0 10px',
-};
-
 const centeredStyle = {
     textAlign: 'center',
     margin: ".5rem"

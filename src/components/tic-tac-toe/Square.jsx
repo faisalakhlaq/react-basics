@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 const Square = ({value, winner, onClick}) => {
     return (

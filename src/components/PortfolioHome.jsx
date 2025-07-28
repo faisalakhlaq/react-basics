@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Education, Home, About, Experience, Skills, Contact, Projects, Playground } from "./index"
+import { Education, Home, About, Experience, Skills, Contact, Projects } from "./index"
 
 
 const PortfolioHome = () => {
