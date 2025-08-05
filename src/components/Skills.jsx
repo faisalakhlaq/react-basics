@@ -5,7 +5,7 @@ const sectionContainerStyle = {
     backgroundColor: "#fff",
     borderRadius: "8px",
     boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-    marginBottom: "2em" 
+    marginBottom: "2em"
 };
 
 const headingStyle = {
@@ -30,7 +30,7 @@ const skillsListContainerStyle = {
 
 const skillColumnStyle = {
     flex: '1 1 250px',
-    maxWidth: '350px', 
+    maxWidth: '350px',
     padding: '1rem',
     borderRadius: '8px',
     backgroundColor: '#f9f9f9',
@@ -51,10 +51,10 @@ const Skills = () => {
                 <ul style={skillColumnStyle}>
                     <h3 style={subHeadingStyle}>Python</h3>
                     <li style={listItemStyle}>Flask</li>
-                    <li style={listItemStyle}>Database Interaction</li> 
+                    <li style={listItemStyle}>Database Interaction</li>
                     <li style={listItemStyle}>Web Scraping</li>
                     <li style={listItemStyle}>Pandas</li>
-                    <li style={listItemStyle}>Bokeh</li> 
+                    <li style={listItemStyle}>Bokeh</li>
                 </ul>
 
                 <ul style={skillColumnStyle}>
@@ -62,10 +62,10 @@ const Skills = () => {
                     <li style={listItemStyle}>REST Framework API</li>
                     <li style={listItemStyle}>Celery</li>
                     <li style={listItemStyle}>ORM</li>
-                    <li style={listItemStyle}>Internationalization (Translations)</li> 
+                    <li style={listItemStyle}>Internationalization (Translations)</li>
                     <li style={listItemStyle}>User Authentication</li>
                     <li style={listItemStyle}>Generic Views</li>
-                    <li style={listItemStyle}>Unit & Functional Testing</li> 
+                    <li style={listItemStyle}>Unit & Functional Testing</li>
                 </ul>
 
                 <ul style={skillColumnStyle}>
@@ -91,14 +91,15 @@ const Skills = () => {
                     <li style={listItemStyle}>Ubuntu</li>
                     <li style={listItemStyle}>Docker</li>
                     <li style={listItemStyle}>CI/CD</li>
+                    <li style={listItemStyle}>Selenium (Test Automation)</li>
                 </ul>
 
                 <ul style={skillColumnStyle}>
                     <h3 style={subHeadingStyle}>Basic Skills</h3>
                     <li style={listItemStyle}>Node.js</li>
-                    <li style={listItemStyle}>React</li> 
+                    <li style={listItemStyle}>React</li>
                     <li style={listItemStyle}>Android</li>
-                    <li style={listItemStyle}>IoT Concepts</li> 
+                    <li style={listItemStyle}>IoT Concepts</li>
                     <li style={listItemStyle}>Node-RED</li>
                     <li style={listItemStyle}>Java</li>
                     <li style={listItemStyle}>C++</li>
@@ -109,8 +110,8 @@ const Skills = () => {
                     <li style={listItemStyle}>Project Management</li>
                     <li style={listItemStyle}>Technical Leadership</li>
                     <li style={listItemStyle}>Time Management</li>
-                    <li style={listItemStyle}>Technical Writing</li> 
-                    <li style={listItemStyle}>Mentoring/Teaching</li> 
+                    <li style={listItemStyle}>Technical Writing</li>
+                    <li style={listItemStyle}>Mentoring/Teaching</li>
                     <li style={listItemStyle}>Communication</li>
                     <li style={listItemStyle}>Goal Setting</li>
                     <li style={listItemStyle}>Positive Attitude</li>
