@@ -1,6 +1,27 @@
 [
     {
         "id": 1,
+        "title": "Balkan Real Estate",
+        "description": "A full-stack real estate application featuring a Django REST Framework API backend paired with a React Native mobile app frontend. The backend provides robust endpoints for managing properties, user accounts, and user-specific favorite listings, while the mobile app offers a smooth, user-friendly experience for property search and management. This project is currently in progress and developed collaboratively with another frontend developer.",
+        "link": "https://faisalakhlaq.pythonanywhere.com/api/v1/schema/swagger-ui/",
+        "tools": [
+            "Django REST Framework",
+            "PostgreSQL, MySQL",
+            "GitHub CI workflows",
+            "OpenAPI schema generation",
+            "Authentication (dj-rest-auth + JWT)",
+            "Flexible filtering",
+            "Unit Testing",
+            "React Native",
+            "Expo"
+        ],
+        "warnings": [
+            "Project is in progress and the live API is currently available for demo purposes only."
+        ],
+        "image": "balkan.jpg"
+    },
+    {
+        "id": 2,
         "title": "MobileTilbud website",
         "description": "MobileTilbud website provides information about mobiles and  offers from all telecom companies in Denmark. Data is scraped from different website on periodic basis using web-scraping. Partners can signup and post their offers on the website and perform CRUD operations.Website supports Danish and English language.",
         "link": "https://www.mobiletilbud.dk",
