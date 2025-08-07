@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Balkan Real Estate | App",
+        "title": "Balkan Real Estate",
         "description": "A full-stack real estate application featuring a Django REST Framework API backend paired with a React Native mobile app frontend. The backend provides robust endpoints for managing properties, user accounts, and user-specific favorite listings, while the mobile app offers a smooth, user-friendly experience for property search and management. This project is currently in progress and developed collaboratively with another frontend developer.",
         "link": "https://faisalakhlaq.pythonanywhere.com/api/v1/schema/swagger-ui/",
         "tools": [
