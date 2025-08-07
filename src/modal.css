@@ -28,17 +28,48 @@
     display: none;
 }
 
-.p-description {
+.description-container {
     width: 50%;
     text-align: justify;
+}
+
+.project-heading-text {
+    text-align: center;
+    margin: .8em;
+}
+
+.p-description {
+    font-size: .8em;
+    margin: .8em;
+    color: #666;
+}
+
+.skills-tools-container {
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(65, 63, 85, 0.1);
+    margin: 0.5em;
+}
+
+.skills-tools-heading {
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+}
+
+.skills-tools-text {
+    font-size: 0.7em;
+    text-align: justify;
+    padding: 0.5em;
+    font-style: italic;
+    color: #666;
 }
 
 .p-image {
     width: 50%;
     height: 100%;
-    /* Example fixed height */
     object-fit: cover;
-    /* Ensures the image covers the container without distortion */
 }
 
 .warning-list {
@@ -81,7 +112,7 @@
         align-self: center;
     }
 
-    .p-description {
+    .description-container {
         width: 90%;
         text-align: justify;
     }

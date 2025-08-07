@@ -1,20 +1,25 @@
 [
     {
         "id": 1,
-        "title": "Balkan Real Estate",
+        "title": "Balkan Real Estate | App",
         "description": "A full-stack real estate application featuring a Django REST Framework API backend paired with a React Native mobile app frontend. The backend provides robust endpoints for managing properties, user accounts, and user-specific favorite listings, while the mobile app offers a smooth, user-friendly experience for property search and management. This project is currently in progress and developed collaboratively with another frontend developer.",
         "link": "https://faisalakhlaq.pythonanywhere.com/api/v1/schema/swagger-ui/",
         "tools": [
             "Django REST Framework",
             "PostgreSQL, MySQL",
             "GitHub CI workflows",
+            "Docker",
             "OpenAPI schema generation",
             "Authentication (dj-rest-auth + JWT)",
-            "Flexible filtering",
             "Unit Testing",
             "React Native",
             "Expo",
-            "Trello",
+            "Trello"
+        ],
+        "skills": [
+            "Product Owner",
+            "Full Stack Development",
+            "Pythonanywhere Deployment",
             "Project Planning",
             "Team Onboarding & Mentoring"
         ],
@@ -36,7 +41,13 @@
             "MySQL",
             "User AUTH",
             "Requirements Gathering",
-            "Test Automation: Selenium",
+            "Test Automation: Selenium"
+        ],
+        "skills": [
+            "Product Owner",
+            "Full Stack Development",
+            "Pythonanywhere Deployment",
+            "Project Planning",
             "Team Onboarding & Mentoring"
         ],
         "warnings": [
@@ -46,12 +57,16 @@
     },
     {
         "id": 11,
-        "title": "Android App: Prayer Diary",
+        "title": "Prayer Diary | Android App",
         "description": "A small android app created as a hobby project. There are currently 5000+ downloads of the app.",
         "link": "https://play.google.com/store/apps/details?id=com.prayerdiary.app",
         "tools": [
             "Android",
             "Eclipse IDE"
+        ],
+        "skills": [
+            "Product Owner",
+            "Google App Store Upload"
         ],
         "warnings": [],
         "image": "prayer-diary.jpg"

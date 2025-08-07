@@ -4,23 +4,28 @@ import Button from './Button';
 
 const ProjectModal = ({ handleClose, show, project }) => {
   const showHideClassName = show ? "modal display-block" : "modal display-none";
-  const centeredStyle = {
-    textAlign: "center"
-  };
 
   return (
     <div className={showHideClassName}>
       <section className="modal-main">
-        <div className='p-description'>
-          <h3 style={centeredStyle}>
+        <div className='description-container'>
+          <h3 className='project-heading-text'>
             {project.title}
           </h3>
-          <p>
+          <p className='p-description'>
             {project.description}
           </p>
-          <div style={centeredStyle}>
-            <h5>Tools Used</h5>
-            {project.tools.join(', ')}
+          <div className='skills-tools-container'>
+            <div className='skills-tools-text'>
+              <p className="skills-tools-heading">Tools Used</p>
+              {project.tools.join(', ')}
+            </div>
+            {project.skills && < hr />}
+            {project.skills &&
+              <div className="skills-tools-text">
+                <p className="skills-tools-heading">Skills</p>
+                {project.skills?.join(', ')}
+              </div>}
           </div>
 
           {project.warnings?.length > 0 && (
@@ -52,3 +57,7 @@ const ProjectModal = ({ handleClose, show, project }) => {
 };
 
 export default ProjectModal;
+
+const centeredStyle = {
+  textAlign: "center",
+};
