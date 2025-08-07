@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/home.css';
 
 import {
     GitHubIcon,
@@ -33,7 +34,7 @@ const Home = () => {
 
                     <div className="home-header-row">
                         <div className="home-text-intro">
-                            <h2>Copenhagen-Based Software Engineer | Real-time & Scalable Backends</h2>
+                            <h2>Copenhagen-Based Software Engineer | Product Owner</h2>
                         </div>
 
                         <div className="home-image-block">

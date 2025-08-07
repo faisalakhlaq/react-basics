@@ -1,5 +1,8 @@
 import React from 'react';
 
+import '../assets/skills.css';
+
+
 const sectionContainerStyle = {
     padding: "2em",
     backgroundColor: "#fff",
@@ -34,7 +37,7 @@ const skillColumnStyle = {
     padding: '1rem',
     borderRadius: '8px',
     backgroundColor: '#f9f9f9',
-    boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
+    boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
 };
 
 const listItemStyle = {
@@ -42,36 +45,72 @@ const listItemStyle = {
     color: '#666'
 };
 
+const subSkillList = {
+    paddingLeft: '1.5em',
+    marginTop: '0.3em',
+    marginBottom: '0.8em',
+}
+
+
 const Skills = () => {
     return (
         <div id="skills" className="base-container" style={sectionContainerStyle}>
             <h1 style={headingStyle}>Skills</h1>
 
             <div style={skillsListContainerStyle}>
+
                 <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>Python</h3>
+                    <h3 style={subHeadingStyle}>Product Skills</h3>
+                    <li style={listItemStyle}>Requirements Gathering</li>
+                    <li style={listItemStyle}>Backlog Management</li>
+                    <li style={listItemStyle}>Agile: Scrum, Sprint Planning, Jira/Trello</li>
+                    <li style={listItemStyle}>Team Onboarding</li>
+                    <li style={listItemStyle}>Project Management</li>
+                    <li style={listItemStyle}>Mentoring/Teaching</li>
+                    <li style={listItemStyle}>Technical Leadership</li>
+                    <li style={listItemStyle}>Time Management</li>
+                    <li style={listItemStyle}>Goal Setting</li>
+                    <li style={listItemStyle}>Technical Writing</li>
+                    <li style={listItemStyle}>Communication (Stakeholder & Team)</li>
+                    <li style={listItemStyle}>Positive Attitude</li>
+                </ul>
+
+                <ul style={skillColumnStyle}>
+                    <h3 style={subHeadingStyle}>Languages</h3>
+                    <li style={listItemStyle}>Python</li>
+                    <ul style={subSkillList}>
+                        <li className="sub-skill-item">Web Scraping</li>
+                        <li className="sub-skill-item">Pandas</li>
+                        <li className="sub-skill-item">Bokeh</li>
+                    </ul>
+                    <li style={listItemStyle}>JavaScript</li>
+                    <li style={listItemStyle}>Java (Basic)</li>
+                    <li style={listItemStyle}>C++ (Basic)</li>
+                </ul>
+
+                <ul style={skillColumnStyle}>
+                    <h3 style={subHeadingStyle}>Frameworks</h3>
+                    <li style={listItemStyle}>Django</li>
+                    <ul style={subSkillList}>
+                        <li className="sub-skill-item">REST Framework API</li>
+                        <li className="sub-skill-item">Celery</li>
+                        <li className="sub-skill-item">ORM</li>
+                        <li className="sub-skill-item">Internationalization (Translations)</li>
+                        <li className="sub-skill-item">User Authentication</li>
+                        <li className="sub-skill-item">Generic Views</li>
+                        <li className="sub-skill-item">Unit & Functional Testing</li>
+                        <li className="sub-skill-item">Selenium (Test Automation)</li>
+                    </ul>
                     <li style={listItemStyle}>Flask</li>
-                    <li style={listItemStyle}>Database Interaction</li>
-                    <li style={listItemStyle}>Web Scraping</li>
-                    <li style={listItemStyle}>Pandas</li>
-                    <li style={listItemStyle}>Bokeh</li>
-                </ul>
-
-                <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>Django</h3>
-                    <li style={listItemStyle}>REST Framework API</li>
-                    <li style={listItemStyle}>Celery</li>
-                    <li style={listItemStyle}>ORM</li>
-                    <li style={listItemStyle}>Internationalization (Translations)</li>
-                    <li style={listItemStyle}>User Authentication</li>
-                    <li style={listItemStyle}>Generic Views</li>
-                    <li style={listItemStyle}>Unit & Functional Testing</li>
-                </ul>
-
-                <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>JavaScript</h3>
                     <li style={listItemStyle}>TypeScript</li>
                     <li style={listItemStyle}>SvelteKit</li>
+                    <li style={listItemStyle}>Node.js (Basic)</li>
+                    <li style={listItemStyle}>React (Basic)</li>
+                    <li style={listItemStyle}>React-native (Basic)</li>
+                    <li style={listItemStyle}>Android (Basic)</li>
+                    <li style={listItemStyle}>IoT (Basic)</li>
+                    <li style={listItemStyle}>Node-RED (Basic)</li>
+                    <li style={listItemStyle}>Database Interaction</li>
                 </ul>
 
                 <ul style={skillColumnStyle}>
@@ -82,40 +121,17 @@ const Skills = () => {
                 </ul>
 
                 <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>Intermediate Skills</h3>
-                    <li style={listItemStyle}>Git</li>
+                    <h3 style={subHeadingStyle}>Development Environment & Tools</h3>
+                    <li style={listItemStyle}>Version control (Git)</li>
                     <li style={listItemStyle}>GitHub Actions (Workflows)</li>
                     <li style={listItemStyle}>GitHub Action Runners</li>
                     <li style={listItemStyle}>HTML & CSS</li>
                     <li style={listItemStyle}>Databases (PostgreSQL, MySQL)</li>
                     <li style={listItemStyle}>Ubuntu</li>
-                    <li style={listItemStyle}>Docker</li>
+                    <li style={listItemStyle}>Containerization (Docker)</li>
                     <li style={listItemStyle}>CI/CD</li>
-                    <li style={listItemStyle}>Selenium (Test Automation)</li>
                 </ul>
 
-                <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>Basic Skills</h3>
-                    <li style={listItemStyle}>Node.js</li>
-                    <li style={listItemStyle}>React</li>
-                    <li style={listItemStyle}>Android</li>
-                    <li style={listItemStyle}>IoT Concepts</li>
-                    <li style={listItemStyle}>Node-RED</li>
-                    <li style={listItemStyle}>Java</li>
-                    <li style={listItemStyle}>C++</li>
-                </ul>
-
-                <ul style={skillColumnStyle}>
-                    <h3 style={subHeadingStyle}>Non-Technical Skills</h3>
-                    <li style={listItemStyle}>Project Management</li>
-                    <li style={listItemStyle}>Technical Leadership</li>
-                    <li style={listItemStyle}>Time Management</li>
-                    <li style={listItemStyle}>Technical Writing</li>
-                    <li style={listItemStyle}>Mentoring/Teaching</li>
-                    <li style={listItemStyle}>Communication</li>
-                    <li style={listItemStyle}>Goal Setting</li>
-                    <li style={listItemStyle}>Positive Attitude</li>
-                </ul>
             </div>
         </div>
     );

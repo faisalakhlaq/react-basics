@@ -13,7 +13,10 @@
             "Flexible filtering",
             "Unit Testing",
             "React Native",
-            "Expo"
+            "Expo",
+            "Trello",
+            "Project Planning",
+            "Team Onboarding & Mentoring"
         ],
         "warnings": [
             "Project is in progress and the live API is currently available for demo purposes only."
@@ -32,7 +35,9 @@
             "Celery",
             "MySQL",
             "User AUTH",
-            "Test Automation: Selenium"
+            "Requirements Gathering",
+            "Test Automation: Selenium",
+            "Team Onboarding & Mentoring"
         ],
         "warnings": [
             "Link may not be working"
