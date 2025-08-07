@@ -73,7 +73,7 @@
         "image": "prayer-diary.jpg"
     },
     {
-        "id": 2,
+        "id": 12,
         "title": "Stock Data Fetcher",
         "description": "A simple hobby project which fetches and display any given stock's data in a candlestick chart. The website also has a blog and user module for creating and managing users. The user can write about stock terms and guidelines on the blog.",
         "link": "https://stockgraphicaldata.herokuapp.com",
